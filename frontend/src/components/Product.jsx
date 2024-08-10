@@ -2,10 +2,15 @@ import React from 'react'
 import { Card, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 import Rating from './Rating';
+import ProductScreen from '../Screens/ProductScreen';
+
+
+
 
 
 
 const Product = ({product}) => {
+
   return (
     <Card className='my-3 p-3' style={{ width: '18rem' }}>
       <Link to={`/product/${product._id}`}>
