@@ -1,0 +1,5 @@
+1. bootstrap : router / npm i react-router-bootstrap  
+ <Navbar.Brand href='/'>  import LinkContainer and wrap codes around with it and 
+use 'to' .
+to create router
+not using react-router-dom. / 
