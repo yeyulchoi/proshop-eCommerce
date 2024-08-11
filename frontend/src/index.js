@@ -14,7 +14,7 @@ const router =createBrowserRouter(
     <Route>
       <Route path='/' element={<App />}>
         <Route index={true} path='/' element={<HomeScreen />} />
-        <Route path='/product/:productId' element={<ProductScreen />} />
+        <Route path='/products/:productId' element={<ProductScreen />} />
 
        </Route>
     </Route>
