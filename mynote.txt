@@ -27,3 +27,9 @@ The moment i click the link that hold the url, I sent/touch/requested
 
 
  If next.js is used, don't have to use useState etc..
+
+ react-redux is a kind of bridge to connect react and redux together
+ redux can be used without react. it can be used with angular/vue etc.
+
+
+ redux . surround main router with it

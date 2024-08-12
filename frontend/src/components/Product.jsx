@@ -29,7 +29,7 @@ const Product = ({product}) => {
           ${product.price}
         </Card.Text>
         
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go to Cart</Button>
       </Card.Body>
     </Card>
   )
